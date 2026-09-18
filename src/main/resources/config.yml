@@ -1,0 +1,22 @@
+# EasyItems 0.1
+# Namespace: eis
+#
+# /give @s eis:ruby
+# /give @s eis:copper_coin 16
+
+items:
+  ruby:
+    material: DIAMOND
+    display-name: "&cルビー"
+    model: ruby
+    lore:
+      - "&7EasyItems sample item"
+      - "&8ID: eis:ruby"
+
+  copper_coin:
+    material: GOLD_NUGGET
+    display-name: "&6銅貨"
+    model: copper_coin
+    lore:
+      - "&7EasyItems sample item"
+      - "&8ID: eis:copper_coin"
