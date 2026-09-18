@@ -1,0 +1,20 @@
+name: EasyItems
+version: ${version}
+main: org.easyitems.EasyItemsPlugin
+description: A simple data-driven custom item system for Paper.
+author: EasyItems Contributors
+api-version: '26.2'
+
+commands:
+  eis:
+    description: EasyItems administration and item commands
+    usage: /eis <give|list|reload|info>
+    permission: easyitems.admin
+
+permissions:
+  easyitems.admin:
+    description: Allows use of EasyItems administration commands.
+    default: op
+  easyitems.give:
+    description: Allows /give to create EasyItems.
+    default: op
